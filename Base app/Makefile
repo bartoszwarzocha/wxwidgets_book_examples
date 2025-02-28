@@ -1,5 +1,5 @@
 #General options
-WX = 3.1
+WX = 3.2
 GTK = 3
 
 # General compiler options
