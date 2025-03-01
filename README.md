@@ -42,10 +42,10 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | [**Combo list**](Combo%20list/) | The example shows how you can implement combobox controls with your own advanced lists in a dropdown part. | ![Combo list](Combo%20list/screenshot.png) |
 | [**Command line**](Command%20line/) | This simple application shows the way of working with default wxWidgets command line parser. | ![Command line](Command%20line/screenshot.png) |
 | [**Console app**](Console%20app/) | Base console app. | |
-| [**Custom controls**](Custom%20controls/) | This programme demonstrates how to make some of your own GUI controls - from a simple graphical button, to a progress bar, to an advanced calendar. You simply have to see how easy it is with wxWidgets! | ![Custom controls](Custom%20controls/screenshot.png) |
+| [**Custom controls**](Custom%20controls/) | This program demonstrates how to make some of your own GUI controls - from a simple graphical button, to a progress bar, to an advanced calendar. You simply have to see how easy it is with wxWidgets! | ![Custom controls](Custom%20controls/screenshot.png) |
 | [**Custom splashscreen**](Custom%20splashscreen/) | Splashscreen with your own text or counter. | ![Custom splashscreen](Custom%20splashscreen/screenshot.png) |
 | [**DB (Soci + Firebird)**](DB%20%28Soci%20+%20Firebird%29/) | The application shows how to easily combine working with wxWidgets and libraries for the popular Firebird database server. Please note that you must be familiar with SQL. | |
-| [**Dialogs**](Dialogs/) | This programme demonstrates all standard windows and dialogue functions available in wxWidgets. | |
+| [**Dialogs**](Dialogs/) | This program demonstrates all standard windows and dialogue functions available in wxWidgets. | |
 | [**DocMDI**](DocMDI/) | The app shows how to work with DocMDI. | ![DocMDI](DocMDI/screenshot.png) |
 | [**Drawing**](Drawing/) | A simple application which shows you how to draw with wxWidgets. | ![Drawing](Drawing/screenshot.png) |
 | [**File system**](File%20system/) | What you can do with filesystem working with the wxWidgets library? You'll be surprised how much, just try it! | ![File system](File%20system/screenshot.png) |
@@ -58,13 +58,13 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | [**Multithreading**](Multithreading/) | One thread is not enough! See how to use multiple threads in the wxWidgets app. | ![Multithreading](Multithreading/screenshot.png) |
 | [**OpenGL**](OpenGL/) | A small introduction to the fascinating world of 3D. _**SOIL and GLEW are required!**_ | ![OpenGL](OpenGL/screenshot.png) |
 | [**Socket**](Socket/) | A set of two applications demonstrating client/server communication. | |
-| [**Text editor - wxRibbonBar example**](Text%20editor%20-%20wxRibbonBar%20example/) | Are standard toolbars boring you? The wxRibbonBar is an answer to your frustration! The programme not only shows you how to place the Ribbon Bar in your programme, but also provides information on how to make various advanced elements of the bar, such as galleries and others. | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
+| [**Text editor - wxRibbonBar example**](Text%20editor%20-%20wxRibbonBar%20example/) | Are standard toolbars boring you? The wxRibbonBar is an answer to your frustration! The program not only shows you how to place the Ribbon Bar in your program, but also provides information on how to make various advanced elements of the bar, such as galleries and others. | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
 | [**Text editor - wxRichTextCtrl example**](Text%20editor%20-%20wxRichTextCtrl%20example/) | WOW! My own 'Office Writer'! | |
 | [**Time**](Time/) | A simple time stuff example. | ![Time](Time/screenshot.png) |
 | [**Useful utilities**](Useful%20utilities/) | Different files useful with some projects. | |
 | [**Validators**](Validators/) | How to use validators? This app will give you an answer... | ![Validators](Validators/screenshot.png) |
-| [**wxAUI example**](wxAUI%20example/) | The programme demonstrates how to use the advanced GUI mode of the wxAUI floating frame library. | ![wxAUI](wxAUI%20example/screenshot.png) |
-| [**wxC++ (Your own IDE!)**](wxC++%20%28Your%20own%20IDE%21%29/) | A simple, but fully-functional integrated development environment (IDE) with support for creating and organising a development project. The programme demonstrates working with wxScintilla and teaches how to implement not only code folding, but also how to perform syntax highlighting specific to selected keywords. | ![wxC++](wxC++%20(Your%20own%20IDE!)/screenshot.png) |
+| [**wxAUI example**](wxAUI%20example/) | The program demonstrates how to use the advanced GUI mode of the wxAUI floating frame library. | ![wxAUI](wxAUI%20example/screenshot.png) |
+| [**wxC++ (Your own IDE!)**](wxC++%20%28Your%20own%20IDE%21%29/) | A simple, but fully-functional integrated development environment (IDE) with support for creating and organising a development project. The program demonstrates working with wxScintilla and teaches how to implement not only code folding, but also how to perform syntax highlighting specific to selected keywords. | ![wxC++](wxC++%20(Your%20own%20IDE!)/screenshot.png) |
 
 ---
 © 2018, 2025 Bartosz Warzocha (bartosz.warzocha@gmail.com)
