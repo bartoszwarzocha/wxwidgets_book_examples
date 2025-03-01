@@ -59,7 +59,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | [**OpenGL**](OpenGL/) | A small introduction to the fascinating world of 3D. _**SOIL and GLEW are required!**_ | ![OpenGL](OpenGL/screenshot.png) |
 | [**Socket**](Socket/) | A set of two applications demonstrating client/server communication. | |
 | [**Text editor - wxRibbonBar example**](Text%20editor%20-%20wxRibbonBar%20example/) | Are standard toolbars boring you? The wxRibbonBar is an answer to your frustration! The programme not only shows you how to place the Ribbon Bar in your programme, but also provides information on how to make various advanced elements of the bar, such as galleries and others. | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
-| [**Text editor - wxRichTextCtrl example**](Text%20editor%20-%20wxRichTextCtrl%20example/) | WOW! My own 'Office Writer'! | ![Text editor](Text%20editor%20-%20wxRichTextCtrl%20example/screenshot.png) |
+| [**Text editor - wxRichTextCtrl example**](Text%20editor%20-%20wxRichTextCtrl%20example/) | WOW! My own 'Office Writer'! | |
 | [**Time**](Time/) | A simple time stuff example. | ![Time](Time/screenshot.png) |
 | [**Useful utilities**](Useful%20utilities/) | Different files useful with some projects. | |
 | [**Validators**](Validators/) | How to use validators? This app will give you an answer... | ![Validators](Validators/screenshot.png) |
