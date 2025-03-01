@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="wxWidgetsApp" />
+		<Option platforms="Unix;" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="Debug_linux/wxWidgetsApp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Debug_linux/obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="Release_linux/wxWidgetsApp" prefix_auto="1" extension_auto="1" />
+				<Option object_output="Release_linux/obj/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`wx-config --cflags`" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs`" />
+			<Add option="-lwx_gtk2u_stc-3.0" />
+		</Linker>
+		<Unit filename="Common/MyXmlDocument.cpp" />
+		<Unit filename="Common/MyXmlDocument.h" />
+		<Unit filename="Common/ProjectTree.cpp" />
+		<Unit filename="Common/ProjectTree.h" />
+		<Unit filename="Common/main.cpp" />
+		<Unit filename="Common/main.h" />
+		<Unit filename="Common/utils.h" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

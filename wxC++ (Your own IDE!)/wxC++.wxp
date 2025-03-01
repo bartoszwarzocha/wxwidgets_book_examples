@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CppProject>
+    <version release="1" major="0" minor="0" build="0"/>
+    <settings name="author">user</settings>
+    <settings name="date">2025-03-01 20:02:38</settings>
+    <project name="wxC++">
+        <filter name="Header files">
+            <file>
+                <path>./Common/MyXmlDocument.h</path>
+            </file>
+            <file>
+                <path>./Common/ProjectTree.h</path>
+            </file>
+            <file>
+                <path>./Common/main.h</path>
+            </file>
+            <file>
+                <path>./Common/utils.h</path>
+            </file>
+        </filter>
+        <filter name="Source files">
+            <file>
+                <path>./Common/MyXmlDocument.cpp</path>
+            </file>
+            <file>
+                <path>./Common/ProjectTree.cpp</path>
+            </file>
+            <file>
+                <path>./Common/main.cpp</path>
+            </file>
+        </filter>
+        <filter name="Resource files"/>
+        <filter name="Other files"/>
+    </project>
+</CppProject>
