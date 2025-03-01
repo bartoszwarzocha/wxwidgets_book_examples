@@ -1,6 +1,6 @@
 # wxWidgets Example Applications
 
-## From base application to your own IDE!
+## 🔥 From base application to your own IDE! 🔥
 
 ## Introduction
 The repository contains a selection of sample [wxWidgets](https://www.wxwidgets.org/) applications, which are supplementary material to my book **"Cross-Platform Programming with C++ and wxWidgets 3"**. The book can be found at:
@@ -57,7 +57,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | [**MDI**](MDI/) | The app shows how to work with MDI. | ![MDI](MDI/screenshot.png) |
 | [**Multithreading**](Multithreading/) | One thread is not enough! See how to use multiple threads in the wxWidgets app. | ![Multithreading](Multithreading/screenshot.png) |
 | [**OpenGL**](OpenGL/) | A small introduction to the fascinating world of 3D. _**SOIL and GLEW are required!**_ | ![OpenGL](OpenGL/screenshot.png) |
-| [**Socket**](Socket/) | A set of two applications demonstrating client/server communication. | |
+| [**Socket**](Socket/) | A set of two applications demonstrating client/server communication. The best way to check communication is to run both applications at the same time. _For Windows please link the Ws2_32.lib library if required._| |
 | [**Text editor - wxRibbonBar example**](Text%20editor%20-%20wxRibbonBar%20example/) | Are standard toolbars boring you? The wxRibbonBar is an answer to your frustration! The program not only shows you how to place the Ribbon Bar in your program, but also provides information on how to make various advanced elements of the bar, such as galleries and others. | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
 | [**Text editor - wxRichTextCtrl example**](Text%20editor%20-%20wxRichTextCtrl%20example/) | WOW! My own 'Office Writer'! | |
 | [**Time**](Time/) | A simple time stuff example. | ![Time](Time/screenshot.png) |
