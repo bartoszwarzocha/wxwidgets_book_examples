@@ -27,6 +27,10 @@ The `upgrade_wxwidgets.py` script allows automatic migration of wxWidgets versio
 
 ## Directory Structure
 
+Here is a list of example apllications (as well as other add-ons) included in the repository.
+- Note that some projects require additional files, which are usually placed in the Release_linux and Release_msw_x64 directories. If you are building the Debug version, you need to make sure that the additional files are also placed in the target directories.
+- On some Linux distributions, it may be necessary to manually hardcode the Release_linux/obj and Debug_linux/obj directories before starting the build.
+
 | Name | Description | Screenshot |
 |------|------------|------------|
 | **Base app** | Base application with some examples about mouse and keyboard events using. | |
