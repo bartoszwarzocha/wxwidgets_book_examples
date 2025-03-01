@@ -33,11 +33,11 @@ The `upgrade_wxwidgets.py` script allows automatic migration of wxWidgets versio
 | **Chess timer - wxPropertyGrid example** | Chess timer with properties realised with wxPropertyGrid. | ![Chess timer](Chess%20timer%20-%20wxPropertyGrid%20example/screenshot.png) |
 | **Combo list** | The example shows how you can implement combobox controls with your own advanced lists in a deopdown part. | ![Combo list](Combo%20list/screenshot.png) |
 | **Command line** | This simple application shows the way of working with default wxWidgets command line parser. | ![Command line](Command%20line/screenshot.png) |
-| **Console app** | Base console app. | ![Console app](Console%20app/screenshot.png) |
+| **Console app** | Base console app. | |
 | **Custom controls** | This programme demonstrates how to make some of your own GUI controls - from a simple graphical button, to a progress bar, to an advanced calendar. You simply have to see how easy it is with wxWidgets! | ![Custom controls](Custom%20controls/screenshot.png) |
-| **Custom splashscreen** | Splashcreen with your own text or counter. | ![Custom splashscreen](Custom%20splashscreen/screenshot.png) |
-| **DB (Soci + Firebird)** | The application shows how to easily combine working with wxWidgets and libraries for the popular Firebird database server. Please note that you must be familiar with SQL. | ![DB](DB/screenshot.png) |
-| **Dialogs** | This programme demonstrates all standard windows and dialogue functions available in wxWidgets. | ![Dialogs](Dialogs/screenshot.png) |
+| **Custom splashscreen** | Splashcreen with your own text or counter. | |
+| **DB (Soci + Firebird)** | The application shows how to easily combine working with wxWidgets and libraries for the popular Firebird database server. Please note that you must be familiar with SQL. | |
+| **Dialogs** | This programme demonstrates all standard windows and dialogue functions available in wxWidgets. | |
 | **DocMDI** | | ![DocMDI](DocMDI/screenshot.png) |
 | **Drawing** | A simple application which show you how to draw with wxWidgets. | ![Drawing](Drawing/screenshot.png) |
 | **File system** | | ![File system](File%20system/screenshot.png) |
