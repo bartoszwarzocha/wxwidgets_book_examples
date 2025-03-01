@@ -1,14 +1,14 @@
 # wxWidgets Example Applications
 
 ## Introduction
-This repository contains example applications demonstrating various features of wxWidgets. These applications serve as additional materials for the book **"Cross-Platform Programming with C++ and wxWidgets 3"** by **Bartosz Warzocha**, published in 2018. The book can be found at:
+This repository contains example applications demonstrating various features of [wxWidgets](https://www.wxwidgets.org/) library. These applications serve as additional materials for the book **"Cross-Platform Programming with C++ and wxWidgets 3"** by **Bartosz Warzocha**. The book can be found at:
 [https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html](https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html)
 
-All examples are licensed under the wxWidgets license. [![License](https://img.shields.io/badge/License-wxWidgets-orange)](https://www.wxwidgets.org/about/licence/)
+All examples are licensed under the [wxWidgets License](https://www.wxwidgets.org/about/licence/).
 
 The source code has been updated and tested on:
-- **Windows 11** (Visual Studio 2022)
-- **Linux Mint 22**
+- **Windows 11** (Visual Studio 2022) with wxWidgets 3.3.x
+- **Linux Mint 22** with wxWidgets 3.2.6
 
 In every application folder you can find **Visual Studio solution & project** file, **Code::Blocks project** file and **makefile**, which allow you to build the app in every Windows or Linux OS.
 
@@ -27,7 +27,7 @@ The `upgrade_wxwidgets.py` script allows automatic migration of wxWidgets versio
 3. Enter the directory path containing the project files (`./`).
 4. The script will automatically update all `.vcxproj`, `.sln`, and `Makefile` files.
 
-## Directory Structure
+## Directory Structure & Examples list
 
 Here is a list of example apllications (as well as other add-ons) included in the repository.
 - Note that some projects require additional files, which are usually placed in the Release_linux and Release_msw_x64 directories. If you are building the Debug version, you need to make sure that the additional files are also placed in the target directories.
