@@ -3,7 +3,7 @@
 ## From base application to your own IDE!
 
 ## Introduction
-The repository contains a selection of sample [wxWidgets](https://www.wxwidgets.org/) applications, which are supplementary material to book **"Cross-Platform Programming with C++ and wxWidgets 3"** which is my _magnum opus_. The book can be found at:
+The repository contains a selection of sample [wxWidgets](https://www.wxwidgets.org/) applications, which are supplementary material to my book **"Cross-Platform Programming with C++ and wxWidgets 3"**. The book can be found at:
 [https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html](https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html)
 
 All examples are licensed under the [wxWidgets License](https://www.wxwidgets.org/about/licence/).
