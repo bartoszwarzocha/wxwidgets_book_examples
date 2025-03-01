@@ -136,7 +136,7 @@ void MyFrame::OnClose(wxCommandEvent& WXUNUSED(event))
 //---------------------------------------------------------------------------
 void MyFrame::OnAboutProgram(wxCommandEvent& event)
 {
-    wxMessageBox(wxT("Copyright (c) 2015 by ..."), wxT("About..."), wxOK|wxICON_INFORMATION);
+    wxMessageBox(wxT("Copyright (c) 2025 by ..."), wxT("About..."), wxOK|wxICON_INFORMATION);
 	event.Skip();
 }
 

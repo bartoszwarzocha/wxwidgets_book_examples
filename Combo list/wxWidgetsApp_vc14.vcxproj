@@ -36,9 +36,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Common\main.h" />
+    <ClInclude Include="Common\MyComboList.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Common\main.cpp" />
+    <ClCompile Include="Common\MyComboList.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectName>wxWidgetsApp</ProjectName>

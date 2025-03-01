@@ -1,0 +1,10 @@
+/////////////////////////////////////////////////////////////////////////////
+// Name:        MyComboList.cpp
+// Purpose:     My wxWidgets app
+// Author:      Name Surname <name.surname@email.org>
+// Created:     2025-01-01
+// Copyright:   (c) 2025 by Name Surname
+// Licence:     wxWidgets licence
+/////////////////////////////////////////////////////////////////////////////
+
+#include "MyComboList.h"

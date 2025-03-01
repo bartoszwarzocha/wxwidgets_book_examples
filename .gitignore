@@ -1,0 +1,43 @@
+# --- System ---
+.DS_Store
+Thumbs.db
+
+# --- Compilation ---
+.vs/
+build/
+CMakeFiles/
+*.dir/
+*.obj/
+
+# --- vcpkg ---
+vcpkg_installed/
+.vcpkg-root
+
+# --- Bin & out ---
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+*.o
+*.obj
+*.lib
+*.a
+*.pdb
+*.layout
+
+# --- Tests & logs ---
+*.log
+*.out
+*.tmp
+
+# --- Other ---
+.idea/
+.vscode/
+*.swp
+*.bak
+.env
+*.recipe
+*.ilk
+*.tlog
+*.lastbuildstate
