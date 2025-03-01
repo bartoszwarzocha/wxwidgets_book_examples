@@ -51,7 +51,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | **File system** | What you can do with filesystem working with the wxWidgets library? You'll be surprised how much, just try it! | ![File system](File%20system/screenshot.png) |
 | **FTP** | A simple FTP protocol example. _For Windows please link the Ws2_32.lib library if required._| ![FTP](FTP/screenshot.png) |
 | **Hangman game** | A simple game made in wxWidgets in which you have to guess the words made up by your opponent within a certain time, otherwise... I don't want to be in your shoes! | ![Hangman](Hangman%20game/screenshot.png) |
-| **HTTP** | A simple HTTP protocol example. | ![HTTP](HTTP/screenshot.png) |
+| **HTTP** | A simple HTTP protocol example. | |
 | **Internationalization** | This program will teach you, how to work with different languages in wxWidgets GUI apps. | ![Internationalization](Internationalization/screenshot.png) |
 | **Log** | Find out how you can collect diagnostic logs of your app using the powerful wxWidgets mechanisms. And this is possible in several interesting ways... | ![Log](Log/screenshot.png) |
 | **MDI** | The app shows how to work with MDI. | ![MDI](MDI/screenshot.png) |

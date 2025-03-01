@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 14 for Windows Desktop
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "wxWidgetsApp", "wxWidgetsApp_vc14.vcxproj", "{791189D5-6992-4101-8E73-D9610974FF2E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		DLL Debug|x64 = DLL Debug|x64
+		DLL Debug|x86 = DLL Debug|x86
+		DLL Release|x64 = DLL Release|x64
+		DLL Release|x86 = DLL Release|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{791189D5-6992-4101-8E73-D9610974FF2E}.Debug|x64.ActiveCfg = Debug|x64
+		{791189D5-6992-4101-8E73-D9610974FF2E}.Debug|x64.Build.0 = Debug|x64
+		{791189D5-6992-4101-8E73-D9610974FF2E}.Debug|x86.ActiveCfg = Debug|Win32
+		{791189D5-6992-4101-8E73-D9610974FF2E}.Debug|x86.Build.0 = Debug|Win32
+		{791189D5-6992-4101-8E73-D9610974FF2E}.DLL Debug|x64.ActiveCfg = DLL Debug|x64
+		{791189D5-6992-4101-8E73-D9610974FF2E}.DLL Debug|x64.Build.0 = DLL Debug|x64
+		{791189D5-6992-4101-8E73-D9610974FF2E}.DLL Debug|x86.ActiveCfg = DLL Debug|Win32
+		{791189D5-6992-4101-8E73-D9610974FF2E}.DLL Debug|x86.Build.0 = DLL Debug|Win32
+		{791189D5-6992-4101-8E73-D9610974FF2E}.DLL Release|x64.ActiveCfg = DLL Release|x64
+		{791189D5-6992-4101-8E73-D9610974FF2E}.DLL Release|x64.Build.0 = DLL Release|x64
+		{791189D5-6992-4101-8E73-D9610974FF2E}.DLL Release|x86.ActiveCfg = DLL Release|Win32
+		{791189D5-6992-4101-8E73-D9610974FF2E}.DLL Release|x86.Build.0 = DLL Release|Win32
+		{791189D5-6992-4101-8E73-D9610974FF2E}.Release|x64.ActiveCfg = Release|x64
+		{791189D5-6992-4101-8E73-D9610974FF2E}.Release|x64.Build.0 = Release|x64
+		{791189D5-6992-4101-8E73-D9610974FF2E}.Release|x86.ActiveCfg = Release|Win32
+		{791189D5-6992-4101-8E73-D9610974FF2E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
