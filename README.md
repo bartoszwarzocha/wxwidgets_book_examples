@@ -3,7 +3,7 @@
 ## From base application to your own IDE!
 
 ## Introduction
-This repository contains example applications demonstrating various features of [wxWidgets](https://www.wxwidgets.org/) library. These applications serve as part of additional materials for the book **"Cross-Platform Programming with C++ and wxWidgets 3"** by **Bartosz Warzocha**. The book can be found at:
+The repository contains a selection of sample [wxWidgets](https://www.wxwidgets.org/) applications, which are supplementary material to book **"Cross-Platform Programming with C++ and wxWidgets 3"** which is my _magnum opus_. The book can be found at:
 [https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html](https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html)
 
 All examples are licensed under the [wxWidgets License](https://www.wxwidgets.org/about/licence/).
@@ -61,7 +61,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | **Text editor - wxRibbonBar example** | Are standard toolbars boring you? The wxRibbonBar is an answer to your frustration! The programme not only shows you how to place the Ribbon Bar in your programme, but also provides information on how to make various advanced elements of the bar, such as galleries and others. | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
 | **Text editor - wxRichTextCtrl example** | WOW! My own 'Office Writer'! | ![Text editor](Text%20editor%20-%20wxRichTextCtrl%20example/screenshot.png) |
 | **Time** | A simple time stuff example. | ![Time](Time/screenshot.png) |
-| **Useful utilities** | Different files useful with some projects. | ![Useful utilities](Useful%20utilities/screenshot.png) |
+| **Useful utilities** | Different files useful with some projects. | |
 | **Validators** | How to use validators? This app will give you an answer... | ![Validators](Validators/screenshot.png) |
 | **wxAUI example** | The programme demonstrates how to use the advanced GUI mode of the wxAUI floating frame library. | ![wxAUI](wxAUI%20example/screenshot.png) |
 | **wxC++ (Your own IDE!)** | A simple, but fully-functional integrated development environment (IDE) with support for creating and organising a development project. The programme demonstrates working with wxScintiila and teaches how to implement not only code folding, but also how to perform syntax highlighting specific to selected keywords. | ![wxC++](wxC++%20(Your%20own%20IDE!)/screenshot.png) |
