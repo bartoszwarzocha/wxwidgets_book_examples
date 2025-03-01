@@ -1,6 +1,6 @@
 # wxWidgets Example Applications
 
-## From Base application to your own IDE!
+## From base application to your own IDE!
 
 ## Introduction
 This repository contains example applications demonstrating various features of [wxWidgets](https://www.wxwidgets.org/) library. These applications serve as part of additional materials for the book **"Cross-Platform Programming with C++ and wxWidgets 3"** by **Bartosz Warzocha**. The book can be found at:
@@ -49,7 +49,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | **DocMDI** | The app shows how to work with DocMDI. | ![DocMDI](DocMDI/screenshot.png) |
 | **Drawing** | A simple application which show you how to draw with wxWidgets. | ![Drawing](Drawing/screenshot.png) |
 | **File system** | What you can do with filesystem working with the wxWidgets library? You'll be surprised how much, just try it! | ![File system](File%20system/screenshot.png) |
-| **FTP** | A simple FTP protocol example. | ![FTP](FTP/screenshot.png) |
+| **FTP** | A simple FTP protocol example. _For Windows please link the Ws2_32.lib library if required._| ![FTP](FTP/screenshot.png) |
 | **Hangman game** | A simple game made in wxWidgets in which you have to guess the words made up by your opponent within a certain time, otherwise... I don't want to be in your shoes! | ![Hangman](Hangman%20game/screenshot.png) |
 | **HTTP** | A simple HTTP protocol example. | ![HTTP](HTTP/screenshot.png) |
 | **Internationalization** | This program will teach you, how to work with different languages in wxWidgets GUI apps. | ![Internationalization](Internationalization/screenshot.png) |
