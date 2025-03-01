@@ -56,7 +56,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | **Log** | Find out how you can collect diagnostic logs of your app using the powerful wxWidgets mechanisms. And this is possible in several interesting ways... | ![Log](Log/screenshot.png) |
 | **MDI** | The app shows how to work with MDI. | ![MDI](MDI/screenshot.png) |
 | **Multithreading** | One thread is not enough! See how to use multiple threads in the wxWidgets app. | ![Multithreading](Multithreading/screenshot.png) |
-| **OpenGL** | A small introduction to the fascinating world of 3D. | ![OpenGL](OpenGL/screenshot.png) |
+| **OpenGL** | A small introduction to the fascinating world of 3D. _**SOIL, GLEW and GLEM are required!**_ | ![OpenGL](OpenGL/screenshot.png) |
 | **Socket** | A set of two applications demonstrating client/server communication. | |
 | **Text editor - wxRibbonBar example** | Are standard toolbars boring you? The wxRibbonBar is an answer to your frustration! The programme not only shows you how to place the Ribbon Bar in your programme, but also provides information on how to make various advanced elements of the bar, such as galleries and others. | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
 | **Text editor - wxRichTextCtrl example** | WOW! My own 'Office Writer'! | ![Text editor](Text%20editor%20-%20wxRichTextCtrl%20example/screenshot.png) |

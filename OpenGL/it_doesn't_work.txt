@@ -1,0 +1,3 @@
+If you notice any issues when running the program, make sure that your graphics card supports the appropriate version of OpenGL.  
+The sample program has been designed to work with OpenGL 4.5.  
+If the problem persists, recompile the program with a lower OpenGL version.
