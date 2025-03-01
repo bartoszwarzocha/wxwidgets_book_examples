@@ -41,7 +41,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | **Command line** | This simple application shows the way of working with default wxWidgets command line parser. | ![Command line](Command%20line/screenshot.png) |
 | **Console app** | Base console app. | |
 | **Custom controls** | This programme demonstrates how to make some of your own GUI controls - from a simple graphical button, to a progress bar, to an advanced calendar. You simply have to see how easy it is with wxWidgets! | ![Custom controls](Custom%20controls/screenshot.png) |
-| **Custom splashscreen** | Splashcreen with your own text or counter. | ![Custom splashscreen](Custom splashscreen/screenshot.png) |
+| **Custom splashscreen** | Splashcreen with your own text or counter. | ![Custom splashscreen](Custom%20splashscreen/screenshot.png) |
 | **DB (Soci + Firebird)** | The application shows how to easily combine working with wxWidgets and libraries for the popular Firebird database server. Please note that you must be familiar with SQL. | |
 | **Dialogs** | This programme demonstrates all standard windows and dialogue functions available in wxWidgets. | |
 | **DocMDI** | The app shows how to work with DocMDI. | ![DocMDI](DocMDI/screenshot.png) |
