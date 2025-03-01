@@ -1,0 +1,5 @@
+﻿Czy wiesz, że w domyślnej kompilacji biblioteki większość okien dialogowych wxWidgets w rezczywistości nie wymaga dołączania plików nagłówkowych do kodu programu?
+Jeśli chcesz dodać do swojej aplikacji pasek postępu, powinieneś użyć klasy wxGauge.
+Czy wiesz, że wxWidgets posiada własne sprytne wskaźniki, jak na przykład wxSharedPtr?
+Do dynamicznej obsługi zdarzeń przy użyciu funkcji Bind() możesz używać nie tylko wskaźników do funkcji i wyrażeń lambda, ale także obiektów funkcyjnych.
+Ostatnia porada. TEST.

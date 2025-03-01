@@ -4,15 +4,15 @@
 This repository contains example applications demonstrating various features of wxWidgets. These applications serve as additional materials for the book **"Cross-Platform Programming with C++ and wxWidgets 3"** by **Bartosz Warzocha**, published in 2018. The book can be found at:
 [https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html](https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html)
 
-All examples are licensed under the wxWidgets license.
+All examples are licensed under the wxWidgets license. [![License](https://img.shields.io/badge/License-wxWidgets-orange)](https://www.wxwidgets.org/about/licence/)
 
 The source code has been updated and tested on:
 - **Windows 11** (Visual Studio 2022)
 - **Linux Mint 22**
 
-Additionally, all example applications have been fully translated into English. Originally, they were only available in Polish.
+_Additionally, all example applications have been fully translated into English. Originally, they were only available in Polish._
 
-## Upgrade Script: upgrade_wxwidgets.py
+## Upgrade projects to your version of the wxWidgets: upgrade_wxwidgets.py
 
 The `upgrade_wxwidgets.py` script allows automatic migration of wxWidgets versions in projects. It replaces references to older library versions with newer ones and updates Makefile configurations.
 
@@ -38,26 +38,26 @@ The `upgrade_wxwidgets.py` script allows automatic migration of wxWidgets versio
 | **Custom splashscreen** | Splashcreen with your own text or counter. | |
 | **DB (Soci + Firebird)** | The application shows how to easily combine working with wxWidgets and libraries for the popular Firebird database server. Please note that you must be familiar with SQL. | |
 | **Dialogs** | This programme demonstrates all standard windows and dialogue functions available in wxWidgets. | |
-| **DocMDI** | | ![DocMDI](DocMDI/screenshot.png) |
+| **DocMDI** | The app shows how to work with DocMDI. | ![DocMDI](DocMDI/screenshot.png) |
 | **Drawing** | A simple application which show you how to draw with wxWidgets. | ![Drawing](Drawing/screenshot.png) |
-| **File system** | | ![File system](File%20system/screenshot.png) |
-| **FTP** | | ![FTP](FTP/screenshot.png) |
-| **Hangman game** | | ![Hangman](Hangman%20game/screenshot.png) |
-| **HTTP** | | ![HTTP](HTTP/screenshot.png) |
-| **Internationalization** | | ![Internationalization](Internationalization/screenshot.png) |
-| **Log** | | ![Log](Log/screenshot.png) |
-| **MDI** | | ![MDI](MDI/screenshot.png) |
-| **Multithreading** | | ![Multithreading](Multithreading/screenshot.png) |
-| **OpenGL** | | ![OpenGL](OpenGL/screenshot.png) |
-| **Socket** | | ![Socket](Socket/screenshot.png) |
-| **Text editor - wxRibbonBar example** | | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
-| **Text editor - wxRichTextCtrl example** | | ![Text editor](Text%20editor%20-%20wxRichTextCtrl%20example/screenshot.png) |
-| **Time** | | ![Time](Time/screenshot.png) |
+| **File system** | What you can do with filesystem working with the wxWidgets library? You'll be surprised how much, just try it! | ![File system](File%20system/screenshot.png) |
+| **FTP** | A simple FTP protocol example. | ![FTP](FTP/screenshot.png) |
+| **Hangman game** |  | ![Hangman](Hangman%20game/screenshot.png) |
+| **HTTP** | A simple HTTP protocol example. | ![HTTP](HTTP/screenshot.png) |
+| **Internationalization** | This program will teach you, how to work with different languages in wxWidgets GUI apps. | ![Internationalization](Internationalization/screenshot.png) |
+| **Log** | Find out how you can collect diagnostic logs of your app using the powerful wxWidgets mechanisms. And this is possible in several interesting ways... | ![Log](Log/screenshot.png) |
+| **MDI** | The app shows how to work with MDI. | ![MDI](MDI/screenshot.png) |
+| **Multithreading** | One thread is not enough! See how to use multiple threads in the wxWidgets app. | ![Multithreading](Multithreading/screenshot.png) |
+| **OpenGL** | A small introduction to the fascinating world of 3D. | ![OpenGL](OpenGL/screenshot.png) |
+| **Socket** | A set of two applications demonstrating client/server communication. | |
+| **Text editor - wxRibbonBar example** | Are standard toolbars boring you? The wxRibbonBar is an answer to your frustration! The programme not only shows you how to place the Ribbon Bar in your programme, but also provides information on how to make various advanced elements of the bar, such as galleries and others. | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
+| **Text editor - wxRichTextCtrl example** | WOW! My own 'OO Writer'! | ![Text editor](Text%20editor%20-%20wxRichTextCtrl%20example/screenshot.png) |
+| **Time** | A simple time stuff example. | ![Time](Time/screenshot.png) |
 | **Useful utilities** | Different files useful with some projects. | ![Useful utilities](Useful%20utilities/screenshot.png) |
 | **Validators** | How to use validators? This app will give you an answer... | ![Validators](Validators/screenshot.png) |
-| **wxAUI example** | | ![wxAUI](wxAUI%20example/screenshot.png) |
+| **wxAUI example** | The programme demonstrates how to use the advanced GUI mode of the wxAUI floating frame library. | ![wxAUI](wxAUI%20example/screenshot.png) |
 | **wxC++ (Your own IDE!)** | A simple, but fully-functional integrated development environment (IDE) with support for creating and organising a development project. The programme demonstrates working with wxScintiila and teaches how to implement not only code folding, but also how to perform syntax highlighting specific to selected keywords. | ![wxC++](wxC++%20(Your%20own%20IDE!)/screenshot.png) |
 
-## Copyright
-**Bartosz Warzocha**, 2018. All rights reserved.
+---
+© 2018, 2025 Bartosz Warzocha (bartosz.warzocha@gmail.com)
 
