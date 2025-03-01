@@ -1,7 +1,7 @@
 # wxWidgets Example Applications
 
 ## Introduction
-This repository contains example applications demonstrating various features of [wxWidgets](https://www.wxwidgets.org/) library. These applications serve as additional materials for the book **"Cross-Platform Programming with C++ and wxWidgets 3"** by **Bartosz Warzocha**. The book can be found at:
+This repository contains example applications demonstrating various features of [wxWidgets](https://www.wxwidgets.org/) library. These applications serve as part of additional materials for the book **"Cross-Platform Programming with C++ and wxWidgets 3"** by **Bartosz Warzocha**. The book can be found at:
 [https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html](https://ksiegarnia.pwn.pl/Programowanie-wieloplatformowe-z-C-i-wxWidgets-3,750527898,p.html)
 
 All examples are licensed under the [wxWidgets License](https://www.wxwidgets.org/about/licence/).
@@ -41,7 +41,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | **Command line** | This simple application shows the way of working with default wxWidgets command line parser. | ![Command line](Command%20line/screenshot.png) |
 | **Console app** | Base console app. | |
 | **Custom controls** | This programme demonstrates how to make some of your own GUI controls - from a simple graphical button, to a progress bar, to an advanced calendar. You simply have to see how easy it is with wxWidgets! | ![Custom controls](Custom%20controls/screenshot.png) |
-| **Custom splashscreen** | Splashcreen with your own text or counter. | |
+| **Custom splashscreen** | Splashcreen with your own text or counter. | ![Custom splashscreen](Custom splashscreen/screenshot.png) |
 | **DB (Soci + Firebird)** | The application shows how to easily combine working with wxWidgets and libraries for the popular Firebird database server. Please note that you must be familiar with SQL. | |
 | **Dialogs** | This programme demonstrates all standard windows and dialogue functions available in wxWidgets. | |
 | **DocMDI** | The app shows how to work with DocMDI. | ![DocMDI](DocMDI/screenshot.png) |
@@ -57,7 +57,7 @@ Here is a list of example apllications (as well as other add-ons) included in th
 | **OpenGL** | A small introduction to the fascinating world of 3D. | ![OpenGL](OpenGL/screenshot.png) |
 | **Socket** | A set of two applications demonstrating client/server communication. | |
 | **Text editor - wxRibbonBar example** | Are standard toolbars boring you? The wxRibbonBar is an answer to your frustration! The programme not only shows you how to place the Ribbon Bar in your programme, but also provides information on how to make various advanced elements of the bar, such as galleries and others. | ![Text editor](Text%20editor%20-%20wxRibbonBar%20example/screenshot.png) |
-| **Text editor - wxRichTextCtrl example** | WOW! My own 'OO Writer'! | ![Text editor](Text%20editor%20-%20wxRichTextCtrl%20example/screenshot.png) |
+| **Text editor - wxRichTextCtrl example** | WOW! My own 'Office Writer'! | ![Text editor](Text%20editor%20-%20wxRichTextCtrl%20example/screenshot.png) |
 | **Time** | A simple time stuff example. | ![Time](Time/screenshot.png) |
 | **Useful utilities** | Different files useful with some projects. | ![Useful utilities](Useful%20utilities/screenshot.png) |
 | **Validators** | How to use validators? This app will give you an answer... | ![Validators](Validators/screenshot.png) |
