@@ -1,6 +1,7 @@
 # wxWidgets Example Applications
+### 🔥 From base application to your own IDE! 🔥
 
-## 🔥 From base application to your own IDE! 🔥
+---
 
 ## Introduction
 The repository contains a selection of sample [wxWidgets](https://www.wxwidgets.org/) applications, which are supplementary material to my book **"Cross-Platform Programming with C++ and wxWidgets 3"**. The book can be found at:
@@ -16,6 +17,8 @@ In every application folder you can find **Visual Studio solution & project** fi
 
 _Additionally, all example applications have been fully translated into English. Originally, they were only available in Polish._
 
+---
+
 ## Upgrade projects to your version of the wxWidgets: upgrade_wxwidgets.py
 
 The `upgrade_wxwidgets.py` script allows automatic migration of wxWidgets versions in projects. It replaces references to older library versions with newer ones and updates Makefile configurations.
@@ -28,6 +31,8 @@ The `upgrade_wxwidgets.py` script allows automatic migration of wxWidgets versio
    ```
 3. Enter the directory path containing the project files (`./`).
 4. The script will automatically update all `.vcxproj`, `.sln`, and `Makefile` files.
+
+---
 
 ## Directory Structure & Examples list
 
