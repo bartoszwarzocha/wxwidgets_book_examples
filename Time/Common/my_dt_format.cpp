@@ -17,36 +17,36 @@ wxString wxGetMonthName(wxDateTime::Month month, unsigned int mode)
     {
         switch (month)
         {
-            case wxDateTime::Jan: mth = _(wxT("January")); break;
-            case wxDateTime::Feb: mth = _(wxT("February")); break;
-            case wxDateTime::Mar: mth = _(wxT("March")); break;
-            case wxDateTime::Apr: mth = _(wxT("April")); break;
-            case wxDateTime::May: mth = _(wxT("May")); break;
-            case wxDateTime::Jun: mth = _(wxT("June")); break;
-            case wxDateTime::Jul: mth = _(wxT("July")); break;
-            case wxDateTime::Aug: mth = _(wxT("August")); break;
-            case wxDateTime::Sep: mth = _(wxT("September")); break;
-            case wxDateTime::Oct: mth = _(wxT("October")); break;
-            case wxDateTime::Nov: mth = _(wxT("November")); break;
-            case wxDateTime::Dec: mth = _(wxT("December")); break;
+            case wxDateTime::Jan: mth = wxT("January"); break;
+            case wxDateTime::Feb: mth = wxT("February"); break;
+            case wxDateTime::Mar: mth = wxT("March"); break;
+            case wxDateTime::Apr: mth = wxT("April"); break;
+            case wxDateTime::May: mth = wxT("May"); break;
+            case wxDateTime::Jun: mth = wxT("June"); break;
+            case wxDateTime::Jul: mth = wxT("July"); break;
+            case wxDateTime::Aug: mth = wxT("August"); break;
+            case wxDateTime::Sep: mth = wxT("September"); break;
+            case wxDateTime::Oct: mth = wxT("October"); break;
+            case wxDateTime::Nov: mth = wxT("November"); break;
+            case wxDateTime::Dec: mth = wxT("December"); break;
         }
     }
     else
     {
         switch (month)
         {
-            case wxDateTime::Jan: mth = _(wxT("January")); break;
-            case wxDateTime::Feb: mth = _(wxT("February")); break;
-            case wxDateTime::Mar: mth = _(wxT("March")); break;
-            case wxDateTime::Apr: mth = _(wxT("April")); break;
-            case wxDateTime::May: mth = _(wxT("May")); break;
-            case wxDateTime::Jun: mth = _(wxT("June")); break;
-            case wxDateTime::Jul: mth = _(wxT("July")); break;
-            case wxDateTime::Aug: mth = _(wxT("August")); break;
-            case wxDateTime::Sep: mth = _(wxT("September")); break;
-            case wxDateTime::Oct: mth = _(wxT("October")); break;
-            case wxDateTime::Nov: mth = _(wxT("November")); break;
-            case wxDateTime::Dec: mth = _(wxT("December")); break;
+            case wxDateTime::Jan: mth = wxT("of January"); break;
+            case wxDateTime::Feb: mth = wxT("of February"); break;
+            case wxDateTime::Mar: mth = wxT("of March"); break;
+            case wxDateTime::Apr: mth = wxT("of April"); break;
+            case wxDateTime::May: mth = wxT("of May"); break;
+            case wxDateTime::Jun: mth = wxT("of June"); break;
+            case wxDateTime::Jul: mth = wxT("of July"); break;
+            case wxDateTime::Aug: mth = wxT("of August"); break;
+            case wxDateTime::Sep: mth = wxT("of September"); break;
+            case wxDateTime::Oct: mth = wxT("of October"); break;
+            case wxDateTime::Nov: mth = wxT("of November"); break;
+            case wxDateTime::Dec: mth = wxT("of December"); break;
         }
     }
 
@@ -63,13 +63,13 @@ wxString wxGetWeekDayName(wxDateTime::WeekDay week_day, unsigned int mode)
     wxString wd = wxEmptyString;
     switch (week_day)
     {
-        case wxDateTime::Mon: wd = (mode & WX_DATE_STR_ABBREVIATION) ? _(wxT("Mo")) : _(wxT("Monday")); break;
-        case wxDateTime::Tue: wd = (mode & WX_DATE_STR_ABBREVIATION) ? _(wxT("Tu")) : _(wxT("Tuesday")); break;
-        case wxDateTime::Wed: wd = (mode & WX_DATE_STR_ABBREVIATION) ? _(wxT("We")) : _(wxT("Wednesday")); break;
-        case wxDateTime::Thu: wd = (mode & WX_DATE_STR_ABBREVIATION) ? _(wxT("Th")) : _(wxT("Thursday")); break;
-        case wxDateTime::Fri: wd = (mode & WX_DATE_STR_ABBREVIATION) ? _(wxT("Fr")) : _(wxT("Friday")); break;
-        case wxDateTime::Sat: wd = (mode & WX_DATE_STR_ABBREVIATION) ? _(wxT("Sa")) : _(wxT("Saturday")); break;
-        case wxDateTime::Sun: wd = (mode & WX_DATE_STR_ABBREVIATION) ? _(wxT("Su")) : _(wxT("Sunday")); break;
+        case wxDateTime::Mon: wd = (mode & WX_DATE_STR_ABBREVIATION) ? wxT("Mo") : wxT("Monday"); break;
+        case wxDateTime::Tue: wd = (mode & WX_DATE_STR_ABBREVIATION) ? wxT("Tu") : wxT("Tuesday"); break;
+        case wxDateTime::Wed: wd = (mode & WX_DATE_STR_ABBREVIATION) ? wxT("We") : wxT("Wednesday"); break;
+        case wxDateTime::Thu: wd = (mode & WX_DATE_STR_ABBREVIATION) ? wxT("Th") : wxT("Thursday"); break;
+        case wxDateTime::Fri: wd = (mode & WX_DATE_STR_ABBREVIATION) ? wxT("Fr") : wxT("Friday"); break;
+        case wxDateTime::Sat: wd = (mode & WX_DATE_STR_ABBREVIATION) ? wxT("Sa") : wxT("Saturday"); break;
+        case wxDateTime::Sun: wd = (mode & WX_DATE_STR_ABBREVIATION) ? wxT("Su") : wxT("Sunday"); break;
     }
 
     return wd;
@@ -120,18 +120,18 @@ wxString wxZodiacName(wxDateTime date)
 
     switch (wxZodiac(date))
     {
-        case 1: zodiac = _(wxT("Capricorn")); break;
-        case 2: zodiac = _(wxT("Aquarius")); break;
-        case 3: zodiac = _(wxT("Pisces")); break;
-        case 4: zodiac = _(wxT("Aries")); break;
-        case 5: zodiac = _(wxT("Taurus")); break;
-        case 6: zodiac = _(wxT("Gemini")); break;
-        case 7: zodiac = _(wxT("Cancer")); break;
-        case 8: zodiac = _(wxT("Leo")); break;
-        case 9: zodiac = _(wxT("Virgo")); break;
-        case 10: zodiac = _(wxT("Libra")); break;
-        case 11: zodiac = _(wxT("Scorpio")); break;
-        case 12: zodiac = _(wxT("Sagittarius")); break;
+        case 1: zodiac = wxT("Capricorn"); break;
+        case 2: zodiac = wxT("Aquarius"); break;
+        case 3: zodiac = wxT("Pisces"); break;
+        case 4: zodiac = wxT("Aries"); break;
+        case 5: zodiac = wxT("Taurus"); break;
+        case 6: zodiac = wxT("Gemini"); break;
+        case 7: zodiac = wxT("Cancer"); break;
+        case 8: zodiac = wxT("Leo"); break;
+        case 9: zodiac = wxT("Virgo"); break;
+        case 10: zodiac = wxT("Libra"); break;
+        case 11: zodiac = wxT("Scorpio"); break;
+        case 12: zodiac = wxT("Sagittarius"); break;
     }
 
     return zodiac;
@@ -350,19 +350,19 @@ wxString wxYStr(int y)
     wxString s = wxEmptyString;
     if (y < 0) y = -y;
 
-    if (y == 0) s = _(wxT("0 years"));
-    else if (y == 1) s = _(wxT("1 year"));
-    else if (y == 2 || y == 3 || y == 4) s = wxString::Format(_(wxT("%d years")), y);
-    else if (y > 4 && y <= 19) s = wxString::Format(_(wxT("%d years")), y);
+    if (y == 0) s = wxT("0 years");
+    else if (y == 1) s = wxT("1 year");
+    else if (y == 2 || y == 3 || y == 4) s = wxString::Format(wxT("%d years"), y);
+    else if (y > 4 && y <= 19) s = wxString::Format(wxT("%d years"), y);
     else if (y >= 20)
     {
         if ((y % 10) == 2 || (y % 10) == 3 || (y % 10) == 4)
         {
-            s = wxString::Format(_(wxT("%d years")), y);
+            s = wxString::Format(wxT("%d years"), y);
         }
         else
         {
-            s = wxString::Format(_(wxT("%d years")), y);
+            s = wxString::Format(wxT("%d years"), y);
         }
     }
 
@@ -375,19 +375,19 @@ wxString wxMStr(int m)
     wxString s = wxEmptyString;
     if (m < 0) m = -m;
 
-    if (m == 0) s = _(wxT("0 months"));
-    else if (m == 1) s = _(wxT("1 month"));
-    else if (m == 2 || m == 3 || m == 4) s = wxString::Format(_(wxT("%d months")), m);
-    else if (m > 4 && m <= 12) s = wxString::Format(_(wxT("%d months")), m);
+    if (m == 0) s = wxT("0 months");
+    else if (m == 1) s = wxT("1 month");
+    else if (m == 2 || m == 3 || m == 4) s = wxString::Format(wxT("%d months"), m);
+    else if (m > 4 && m <= 12) s = wxString::Format(wxT("%d months"), m);
     else if (m >= 20)
     {
         if ((m % 10) == 2 || (m % 10) == 3 || (m % 10) == 4)
         {
-            s = wxString::Format(_(wxT("%d months")), m);
+            s = wxString::Format(wxT("%d months"), m);
         }
         else
         {
-            s = wxString::Format(_(wxT("%d months")), m);
+            s = wxString::Format(wxT("%d months"), m);
         }
     }
 
@@ -402,11 +402,11 @@ wxString wxDStr(int d)
 
     if (d == 1)
     {
-        s = _(wxT("1 day"));
+        s = wxT("1 day");
     }
     else
     {
-        s = wxString::Format(_(wxT("%d days")), d);
+        s = wxString::Format(wxT("%d days"), d);
     }
 
     return s;
@@ -415,7 +415,7 @@ wxString wxDStr(int d)
 // General function reading data from wxDateSpan
 wxString wxYMDStr(wxDateSpan span)
 {
-    return wxYStr(span.GetYears()) + wxT(", ")
-        + wxMStr(span.GetMonths()) + _(wxT(" and "))
+    return wxYStr(span.GetYears()) + ", "
+        + wxMStr(span.GetMonths()) + wxT(" and ")
         + wxDStr((span.GetWeeks() * 7) + span.GetDays());
 }
