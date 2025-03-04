@@ -357,14 +357,14 @@ void MyCalendar::DoDraw(wxDC& dc)
 	dc.SetTextForeground(wxColour(200, 200, 200));
 	day_name_font.SetPointSize(day_row_height * 0.4);
 	dc.SetFont(day_name_font);
-	dc.DrawText(wxT("Pn"), coords[0][0][0] + 10, coords[0][0][1] - day_y);
-	dc.DrawText(wxT("Wt"), coords[1][0][0] + 10, coords[1][0][1] - day_y);
-	dc.DrawText(wxT("Śr"), coords[2][0][0] + 10, coords[2][0][1] - day_y);
-	dc.DrawText(wxT("Cz"), coords[3][0][0] + 10, coords[3][0][1] - day_y);
-	dc.DrawText(wxT("Pt"), coords[4][0][0] + 10, coords[4][0][1] - day_y);
+	dc.DrawText(wxT("Mon"), coords[0][0][0] + 10, coords[0][0][1] - day_y);
+	dc.DrawText(wxT("Tue"), coords[1][0][0] + 10, coords[1][0][1] - day_y);
+	dc.DrawText(wxT("Wed"), coords[2][0][0] + 10, coords[2][0][1] - day_y);
+	dc.DrawText(wxT("Thu"), coords[3][0][0] + 10, coords[3][0][1] - day_y);
+	dc.DrawText(wxT("Fri"), coords[4][0][0] + 10, coords[4][0][1] - day_y);
 	dc.SetTextForeground(*wxWHITE);
-	dc.DrawText(wxT("Sb"), coords[5][0][0] + 10, coords[5][0][1] - day_y);
-	dc.DrawText(wxT("Nd"), coords[6][0][0] + 10, coords[6][0][1] - day_y);
+	dc.DrawText(wxT("Sat"), coords[5][0][0] + 10, coords[5][0][1] - day_y);
+	dc.DrawText(wxT("Sun"), coords[6][0][0] + 10, coords[6][0][1] - day_y);
 
 	DrawMonthData(dc);
 }
